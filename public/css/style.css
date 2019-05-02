@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 5rem;
+}
+h1 {
+  font-size: 5rem;;
+  text-align: center;
+}
+a {
+  color:inherit;
+}
+.logo {
+  transform: rotate(-90deg);
+  position: fixed;
+  left: -1.5rem;
+  top: 2.5rem;
+  margin: 0;
+  padding: 0;
+}
+.logo-tag {
+  position: absolute;
+  left: 6rem;
+  top: 0;
+  font-weight: 300;
+}
+.footer-tag {
+  position: fixed;
+  transform: rotate(-90deg);
+  right: -5rem;
+  bottom: 7.5rem;
+  margin: 0;
+  padding: 0;
+}
