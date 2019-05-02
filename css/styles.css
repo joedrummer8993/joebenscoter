@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+}
+h1 {
+    display: block;
+    float: left;
+    margin: 10rem auto;
+    color: white;
+    font-size: 30vw;
+}
