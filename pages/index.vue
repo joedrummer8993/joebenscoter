@@ -78,13 +78,13 @@
   left: 0;
   grid-column: 2 / 5;
 }
-/* .work-background--alps {
+.work-background--alps {
   background-image: radial-gradient(
       ellipse closest-side,
       rgba(248, 179, 126, 0.25),
       rgba(248, 179, 126, 1)
     ),
-    url('~assets/alpscontros4.PNG');
+    url('/alpscontros4.PNG');
 }
 .work-background--bertus {
   background-image: radial-gradient(
@@ -92,8 +92,8 @@
       rgba(183, 209, 224, 0.25),
       rgba(183, 209, 224, 1)
     ),
-    url('~assets/Bertus-details.PNG');
-} */
+    url('/Bertus-details.PNG');
+}
 .work-body {
   grid-column: 2 / 5;
   z-index: 2;
