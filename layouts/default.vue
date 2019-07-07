@@ -1,10 +1,10 @@
 <template>
   <div class="grid">
-    <heading/>
+    <!-- <heading/> -->
     <nuxt/>
-    <footer>
+    <!-- <footer>
       &copy; 2019 - Joe Benscoter
-    </footer>
+    </footer> -->
   </div>
 </template>
 
@@ -37,7 +37,7 @@ body {
   font-family: 'Scada', sans-serif;
   padding: 0;
   margin: 0;
-  background: #eee;
+  /* background: #eee; */
 }
 a {
   text-decoration: none;
