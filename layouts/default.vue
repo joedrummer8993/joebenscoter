@@ -1,10 +1,10 @@
 <template>
   <div class="grid">
-    <!-- <heading/> -->
+    <heading/>
     <nuxt/>
-    <!-- <footer>
+    <footer>
       &copy; 2019 - Joe Benscoter
-    </footer> -->
+    </footer>
   </div>
 </template>
 
@@ -33,11 +33,20 @@ html {
   color: rgb(50, 50, 50);
   padding: 0;
 }
+h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+  margin-top: 0;
+}
 body {
   font-family: 'Scada', sans-serif;
   padding: 0;
   margin: 0;
   /* background: #eee; */
+}
+p {
+  padding: 0;
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -64,9 +73,9 @@ footer {
   margin: 0.5rem;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1400px) {
   .grid {
-    grid-template-columns: 0 2fr 1fr 1fr 2fr 0;
+    grid-template-columns: 0.25fr 2fr 1fr 1fr 2fr 0.25fr;
   }
 }
 </style>
