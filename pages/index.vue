@@ -187,7 +187,7 @@
   background-size: cover;
   border-radius: 2px 2px 5rem 2px;
   transform: rotate(3deg);
-  transition: ease 1.5s;
+  transition: ease 0.5s;
 }
 .work-header {
   grid-area: title;
@@ -244,7 +244,7 @@
   /* margin-top: 5rem; */
   filter: drop-shadow(8px 4px 15px grey);
   transform: rotate(5deg);
-  transition: ease 1s;
+  transition: ease 0.4s;
 }
 .work-image:hover .work-img {
   transform: rotate(0deg);
