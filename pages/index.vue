@@ -43,7 +43,13 @@
         </ul>
       </header>
       <section class="work-body">
-        <p>From 2016 to present, I've led the redesign and feature development of the customer facing ecommerce platform that eParts licensces to its clients. This was a ground up rewrite and redesign that involved switching to a modern tech stack and design language. I conducted ethnographic interviews in the field in order to create personas that would help us understand user needs and pain points. The new platform has a fresh, re-brandable, mobile responsive interface that is both easier to use and easier on the eyes.</p>
+        <p>From 2016 to present, I've led the redesign and feature development of the customer facing ecommerce platform that eParts licensces to its clients. This was a ground up rewrite and redesign that involved switching to a modern tech stack and design language. I conducted ethnographic interviews in the field in order to create personas that would help us understand user needs and pain points. The new platform has a fresh, re-brandable, mobile responsive interface that is both easier to use and easier on the eyes. You can get a glimpse of some of my work by visiting these sites.</p>
+        <br />
+        <ul class="list-row">
+          <li class="list-row_item"><a href="https://alpscontrols.com" target="_blank" class="link-external">alpscontrols.com <img src="External-link.svg"/></a></li>
+          <li class="list-row_item"><a href="https://sifieldpurchasingportal.com" target="_blank" class="link-external">sifieldpurchasingportal.com <img src="External-link.svg"/></a></li>
+          <!-- <li class="list-row_item"><a href="https://esmeparts.com" target="_blank" class="link-external">esmeparts.com <img src="External-link.svg"/></a></li> -->
+        </ul>
       </section>
       <div class="work-image">
         <div class="work-backgroundShape work-backgroundShape--alps"></div>
@@ -52,7 +58,7 @@
     </article>
     <article class="grid-row work">
       <header class="work-header">
-        <h1 class="work-heading work-heading--taiko">taikocardgame.com</h1>
+        <h1 class="work-heading work-heading--taiko">Taiko</h1>
         <ul class="list-row skill-nuggets">
           <li class="list-row_item">Ui/Ux design</li>
           <li class="list-row_item">Development</li>
@@ -60,6 +66,10 @@
       </header>
       <section class="work-body">
         <p>Designed and helped to develop a marketing site to help drive people to back the product on Kickstarter. This involved developing a visual language based on the logo and art in the game.</p>
+        <br />
+        <ul class="list-row">
+          <li class="list-row_item"><a href="http://taikocardgame.com" target="_blank" class="link-external">taikocardgame.com <img src="External-link.svg"/></a></li>
+        </ul>
       </section>
       <div class="work-image">
         <div class="work-backgroundShape work-backgroundShape--taiko"></div>
@@ -95,13 +105,26 @@
       </section>
       <div class="work-image">
         <div class="work-backgroundShape work-backgroundShape--bertus"></div>
-        <img src="Bertus-details.png" class="work-img" />
+        <img src="bertus-spinel-details.png" class="work-img" />
       </div>
     </article>
   </main>
 </template>
 
 <style>
+a {
+  color: rgb(24, 104, 147);
+}
+a:hover {
+  color: rgb(16, 67, 95);
+}
+.link-external {
+  display: flex;
+  align-items: center;
+}
+.link-external img {
+  margin-left: 0.25rem;
+}
 .intro {
   /* min-height: 40vh; */
   /* padding-bottom: 10vh; */
