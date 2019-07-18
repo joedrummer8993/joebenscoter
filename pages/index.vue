@@ -7,14 +7,16 @@
       </div>
       <header class="intro-header">
         <h1 class="intro-heading">
-          Hi.
-          <span style="color: rgba(97, 132, 153, 1);">I'm Joe.</span>
+          <span class="intro-heading-greeting">Hello, I'm</span>
+          <span style="color: rgba(97, 132, 153, 1);">Joe Benscoter.</span>
         </h1>
       </header>
-      <div class="intro-body" style="padding-bottom: 5rem;">
-        <p>I love the challenge of bringing new ideas to life and thrive in the tension of balancing business goals with customer needs.</p>
-        <p>I've been the sole designer on a small, tight knit product team for the past 5 years building the future of B2B eCommerce. I've lead our team through a redesign of our company's core product.</p>
-        <p>Learn about some of my previous work below.</p>
+      <div class="intro-body">
+        <p>I am a product designer and front-end developer who brings ideas to life through human centered design and accessible development.</p>
+        <br />
+        <p>My work experience ranges from designing a website for learning in-depth information about specific gemstones to designing and developing the front end of a payment processing dashboard to designing and developing the front-end of a b2b ecommerce platform as a service.</p>
+        <br />
+        <p>You can read more about these experiences below or <a href="/resume.pdf" target="_blank">view my resume</a> for a brief overview.</p>
         <ul class="list-row">
           <!-- <li class="list-row_item"><a href="#about" class="link">About</a></li> -->
           <!-- <li class="list-row_item"><a href="#work" class="link">Work</a></li> -->
@@ -31,7 +33,7 @@
     </header>
     <article class="grid-row work">
       <header class="work-header">
-        <h1 class="work-heading work-heading--alps">alpscontrols.com</h1>
+        <h1 class="work-heading work-heading--alps">eParts Platform</h1>
         <ul class="list-row skill-nuggets">
           <li class="list-row_item">Art Direction</li>
           <li class="list-row_item">Personas</li>
@@ -101,14 +103,14 @@
 
 <style>
 .intro {
-  min-height: 40vh;
+  /* min-height: 40vh; */
   /* padding-bottom: 10vh; */
   padding: 2rem 0;
   position: relative;
-  margin-bottom: 20vh;
+  margin-bottom: 15vh;
   grid-column: 2 / 6;
   display: grid;
-  grid-template-columns: 1fr 0.5fr 2.5fr;
+  grid-template-columns: minmax(10rem, 0.5fr) 0.25fr 2.5fr;
   grid-template-rows: auto 1fr;
   grid-template-areas:
     'image . title'
@@ -147,16 +149,19 @@
 .intro-heading {
   font-size: 4rem;
   margin-bottom: 1rem;
+  display: flex;
+  flex-flow: column;
+  font-family: 'Mada';
+}
+.intro-heading-greeting {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 .intro-body {
   z-index: 5;
   grid-area: body;
   padding: 2rem 0;
-  /* background: white; */
-  position: relative;
-  top: 0;
-  right: 0;
-  place-self: start center;
+  /* font-size: 1.2rem; */
 }
 .section-title {
   grid-column: 2 / 6;
@@ -181,7 +186,7 @@
   position: absolute;
   top: -1rem;
   left: -5%;
-  width: 100%;
+  width: 105%;
   height: 60%;
   max-height: 300px;
   background-size: cover;
@@ -232,7 +237,7 @@
 .work-img {
   z-index: 2;
   grid-column: 5 / 6;
-  width: 100%;
+  width: 95%;
   max-height: 300px;
   object-fit: cover;
   object-position: 0 0;
@@ -248,11 +253,11 @@
 }
 .work-image:hover .work-img {
   transform: rotate(0deg);
-  width: 110%;
+  width: 100%;
 }
 .work-image:hover .work-backgroundShape {
   transform: rotate(0deg);
-  width: 120%;
+  width: 110%;
 }
 .work--bertus {
   /* background-color: rgb(183, 209, 224); */
@@ -271,7 +276,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  width: 100%;
+  width: 90%;
   height: 100%;
   transform: rotate(12deg);
   background-size: cover;
@@ -379,9 +384,9 @@
 }
 .skill-nuggets li {
   padding: 0.25rem;
-  color: slategray;
+  color: rgb(97, 102, 107);
   text-transform: uppercase;
-  border: 2px solid slategray;
+  border: 2px solid rgb(97, 102, 107);
   font-size: 0.7rem;
   line-height: 0.7rem;
   border-radius: 2px;
@@ -405,6 +410,31 @@
   }
 }
 @media only screen and (max-width: 600px) {
+  .intro {
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      '. image .'
+      'title title title'
+      'body body body';
+  }
+  .intro-header {
+    text-align: center;
+    place-content: center center;
+  }
+  .intro-heading {
+    padding-top: 2rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 0;
+  }
+  .intro-heading-greeting {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  .intro-body {
+    text-align: center;
+  }
   .work {
     grid-template-columns: 1fr;
     grid-template-areas:
