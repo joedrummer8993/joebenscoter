@@ -20,7 +20,7 @@ export default {
 
 <style>
 html {
-  font-family: 'Scada', -apple-system, BlinkMacSystemFont, Roboto,
+  font-family: 'Mada', -apple-system, BlinkMacSystemFont, Roboto,
     'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
@@ -39,7 +39,7 @@ h1 {
   margin-top: 0;
 }
 body {
-  font-family: 'Scada', sans-serif;
+  font-family: 'Mada', sans-serif;
   padding: 0;
   margin: 0;
   /* background: #eee; */
