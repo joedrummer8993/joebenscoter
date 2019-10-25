@@ -47,8 +47,6 @@
         <br />
         <ul class="list-row">
           <li class="list-row_item"><a href="https://alpscontrols.com" target="_blank" class="link-external">alpscontrols.com <img src="External-link.svg"/></a></li>
-          <li class="list-row_item"><a href="https://sifieldpurchasingportal.com" target="_blank" class="link-external">sifieldpurchasingportal.com <img src="External-link.svg"/></a></li>
-          <!-- <li class="list-row_item"><a href="https://esmeparts.com" target="_blank" class="link-external">esmeparts.com <img src="External-link.svg"/></a></li> -->
         </ul>
       </section>
       <div class="work-image">
